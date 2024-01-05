@@ -5,7 +5,7 @@ pipeline{
             steps{
               gitcheckout
                     branch:"main"
-                    url:https: "//github.com/Shantanux/jenkins-shared-library1.gitS  }
+                    url:https: "https://github.com/Shantanux/mrmrdevops_java_app.git" }
             }
         }
     }
