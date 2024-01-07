@@ -1,3 +1,5 @@
+@library( 'my-shared-library') _
+
 pipeline {
     agent any 
     stages{
@@ -13,5 +15,14 @@ pipeline {
             }
         }
  
+stage('unit test maven'){
+            steps{
+                script{
+                    
+                    mvnTest()
+                }
+            }
+        }
+
     }
 }
