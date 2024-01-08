@@ -23,6 +23,13 @@ stage('unit test maven'){
                 }
             }
         }
-
+stage('Integaration Test maven'){
+            steps{
+                script{
+                    
+                    mvnIntegrationTest()
+                }
+            }
+        }
     }
 }
