@@ -1,4 +1,4 @@
-@library('jenkins-shared-library') _
+@Library('jenkins-shared-library') _
 
 pipeline {
     agent any 
@@ -14,7 +14,7 @@ pipeline {
                 }
             }
         }
-        
+        li
  
 stage('unit test maven'){
             steps{
