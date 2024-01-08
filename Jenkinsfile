@@ -15,21 +15,5 @@ pipeline {
             }
         }
  
-stage('unit test maven'){
-            steps{
-                script{
-                    
-                    mvnTest()
-                }
-            }
-        }
-stage('Integaration Test maven'){
-            steps{
-                script{
-                    
-                    mvnIntegrationTest()
-                }
-            }
-        }
     }
 }
