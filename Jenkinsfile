@@ -14,7 +14,7 @@ pipeline {
                 }
             }
         }
-        li
+        
  
 stage('unit test maven'){
             steps{
