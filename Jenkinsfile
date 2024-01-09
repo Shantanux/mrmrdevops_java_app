@@ -6,11 +6,11 @@ pipeline {
         stage('git checkout'){
             steps{
                 script{
-                    gitCheckout{
+                    gitCheckout (
+                                        branch: 'Main',
+                                      url: 'https://github.com/Shantanux/mrmrdevops_java_app.git'
                     
-                branch: 'Main',
-                url: 'https://github.com/Shantanux/mrmrdevops_java_app.git'
-                    }
+                    )
                 }
             }
         }
