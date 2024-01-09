@@ -7,8 +7,8 @@ pipeline {
             steps{
                 script{
                     gitCheckout (
-                                        branch: 'Main',
-                                      url: 'https://github.com/Shantanux/mrmrdevops_java_app.git'
+                                        gitBranch: 'Main',
+                                      gitUrl: 'https://github.com/Shantanux/mrmrdevops_java_app.git'
                     
                     )
                 }
