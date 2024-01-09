@@ -76,7 +76,7 @@
                     <arg>java.base/java.lang=ALL-UNNAMED</arg>
                     <arg>--add-opens</arg>
                     <arg>java.base/java.util=ALL-UNNAMED</arg>
-                    <!-- Add more --add-opens if needed -->
+                    <!-- Add more add-opens if needed -->
                 </compilerArgs>
             </configuration>
         </plugin>
