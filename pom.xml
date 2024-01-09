@@ -71,13 +71,7 @@
             <configuration>
                 <source>1.8</source>
                 <target>1.8</target>
-                <compilerArgs>
-                    <arg>--add-opens</arg>
-                    <arg>java.base/java.lang=ALL-UNNAMED</arg>
-                    <arg>--add-opens</arg>
-                    <arg>java.base/java.util=ALL-UNNAMED</arg>
-                    <!-- Add more add-opens if needed -->
-                </compilerArgs>
+                
             </configuration>
         </plugin>
     </plugins>
