@@ -1,19 +1,21 @@
-@Library('jenkins-shared-library') _
+@Library('my-shared-library') _
 
-pipeline {
-    agent any 
+pipeline{
+
+    agent any
+
+    
+
     stages{
-        stage('git checkout'){
-            steps{
-                script{
-                    gitCheckout (
-                                        gitBranch: 'Main',
-                                      gitUrl: 'https://github.com/Shantanux/mrmrdevops_java_app.git'
+         
+        stage('Git Checkout'){
                     
-                    )
-                }
+            steps{
+            gitCheckout(
+                branch: "main",
+                url: "https://github.com/Shantanux/mrmrdevops_java_app.git"
+            )
             }
         }
-
     }
-}
+    }
