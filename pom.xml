@@ -59,13 +59,14 @@
     </dependencies>
 
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
-
-
-</project>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version> <!-- Update to the latest version -->
+            <configuration>
+                <!-- Add any specific compiler configuration if needed -->
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
