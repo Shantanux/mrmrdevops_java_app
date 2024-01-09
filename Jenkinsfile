@@ -8,7 +8,7 @@ pipeline {
                 script{
                     gitCheckout{
                     
-                branch: 'main',
+                branch: 'Main',
                 url: 'https://github.com/Shantanux/mrmrdevops_java_app.git'
                     }
                 }
